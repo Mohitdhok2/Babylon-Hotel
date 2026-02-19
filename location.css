@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    background: hsl(34, 40%, 92%);
+    color: hsl(215, 28%, 17%)
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    z-index: 1000
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column
+}
+
+.hotel-name {
+    font-size: 22px;
+    font-weight: 700
+}
+
+.hotel-location {
+    font-size: 14px;
+    opacity: .8
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 35px
+}
+
+.nav-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    transition: 0.3s
+}
+
+.nav-link:hover {
+    opacity: .7
+}
+
+.inquire-btn {
+    background: hsl(213, 28%, 17%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s
+}
+
+.inquire-btn:hover {
+    background: hsl(221, 39%, 11%)
+}
+
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 22px
+}
+
+.location-section {
+    background: #fffaf2;
+    padding: 140px 0 120px
+}
+
+.location-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    text-align: center
+}
+
+.location-title {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #1f2937
+}
+
+.location-description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #475569
+}
+
+.location-advantage {
+    margin-top: 70px
+}
+
+.advantage-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 50px
+}
+
+.advantage-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px
+}
+
+.advantage-item {
+    background: #fdebd8;
+    border-radius: 14px;
+    padding: 42px 20px;
+    text-align: center;
+    transition: transform .3s ease, box-shadow .3s ease
+}
+
+.advantage-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, .08)
+}
+
+.location-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .08);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.advantage-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 6px
+}
+
+.advantage-text p {
+    font-size: 15px;
+    color: #475569
+}
+
+.map-section {
+    background: #fffaf2;
+    padding: 70px 0 90px
+}
+
+.map-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 480px;
+    border-radius: 14px;
+    border: none;
+    display: block;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .08)
+}
+
+.map-button {
+    text-align: center;
+    margin-top: 30px
+}
+
+.map-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background .3s ease, transform .3s ease
+}
+
+.map-btn:hover {
+    background: #111827;
+    transform: translateY(-2px)
+}
+
+#footer {
+    background: linear-gradient(180deg, #0c1626, #0b1320);
+    color: #cfd6df;
+    padding: 70px 0 0;
+    font-family: "Segoe UI", Arial, sans-serif
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 60px;
+    padding-bottom: 40px
+}
+
+.footer-about h3 {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 4px
+}
+
+.footer-about span {
+    font-size: 14px;
+    color: #9aa3ad;
+    display: block;
+    margin-bottom: 16px
+}
+
+.footer-about p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 22px
+}
+
+.footer-contact-btn a {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #172235;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px
+}
+
+.footer-contact-btn a:hover {
+    background: #1f2f4a
+}
+
+.footer-top h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 18px
+}
+
+.footer-list {
+    list-style: none
+}
+
+.footer-list li {
+    margin-bottom: 12px
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #cfd6df;
+    font-size: 15px
+}
+
+.footer-list a:hover {
+    color: #fff
+}
+
+.footer-address p {
+    font-size: 15px;
+    margin-bottom: 12px
+}
+
+.footer-address a {
+    color: #cfd6df;
+    text-decoration: none
+}
+
+.footer-address a:hover {
+    color: #fff
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    text-align: center;
+    padding: 22px 0;
+    margin-top: 30px
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #9aa3ad
+}
+
+@media (max-width:1100px) {
+    .advantage-list {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width:992px) {
+    .nav-list {
+        display: none
+    }
+
+    .menu-button {
+        display: block
+    }
+
+    .location-title {
+        font-size: 40px
+    }
+
+    .advantage-list {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px
+    }
+}
+
+@media (max-width:768px) {
+    .map-wrapper iframe {
+        height: 360px
+    }
+}
+
+@media (max-width:600px) {
+    .advantage-list {
+        grid-template-columns: 1fr
+    }
+
+    .location-title {
+        font-size: 38px
+    }
+
+    .advantage-title {
+        font-size: 26px
+    }
+}
+
+@media (max-width:576px) {
+    .header {
+        padding: 10px 16px
+    }
+
+    .hotel-name {
+        font-size: 18px
+    }
+
+    .location-section {
+        padding: 120px 0 80px
+    }
+
+    .location-title {
+        font-size: 32px
+    }
+
+    .advantage-title {
+        font-size: 24px
+    }
+
+    .map-wrapper iframe {
+        height: 340px
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        text-align: center
+    }
+}
