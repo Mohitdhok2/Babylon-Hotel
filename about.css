@@ -45,7 +45,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 35px;
+    gap: 20px;
 }
 
 .nav-link {
@@ -374,7 +374,7 @@ body {
     }
 
     .nav-list {
-        display: none;
+        /* display: none; */
     }
 
     .menu-button {
@@ -439,6 +439,9 @@ body {
 @media (max-width: 576px) {
     .header {
         padding: 8px 14px;
+    }
+    .nav-list {
+        display: none;
     }
 
     .hotel-name {
