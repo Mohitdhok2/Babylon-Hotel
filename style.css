@@ -44,7 +44,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 35px;
+    gap: 20px;
 }
 
 .nav-link {
@@ -683,18 +683,6 @@ body {
     #hero5-reviews {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    /* .hero2-section {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 32px !important;
-        padding: 100px 40px !important;
-    }
-
-    .hero2-card {
-        width: 360px !important;
-    } */
 }
 
 /* ≤ 992px */
@@ -705,10 +693,6 @@ body {
 
     .hero-description {
         font-size: 15px;
-    }
-
-    .nav-list {
-        display: none;
     }
 
     .menu-button {
@@ -787,6 +771,10 @@ body {
 
     .hotel-location {
         font-size: 12px;
+    }
+    .nav-list {
+        display: none;
+        
     }
 
     .inquire-btn {
@@ -930,31 +918,5 @@ body {
         padding: 14px 0;
         border-radius: 10px;
     }
-/* 
-    .hero2-section {
-        padding: 60px 20px !important;
-        gap: 24px !important;
-    }
-
-    .hero2-card {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 36px 24px !important;
-    }
-
-    .hero2-icons {
-        width: 64px !important;
-        height: 64px !important;
-        font-size: 22px !important;
-        margin-bottom: 20px !important;
-    }
-
-    .hero2-title h3 {
-        font-size: 20px !important;
-    }
-
-    .hero2-description p {
-        font-size: 15px !important;
-        margin-bottom: 24px !important; */
     
 }
