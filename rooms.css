@@ -6,7 +6,7 @@
 }
 
 body {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 3%);
     font-family: 'Poppins', sans-serif;
     background: hsl(34, 40%, 92%);
     padding-top: 80px;
