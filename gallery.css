@@ -7,7 +7,9 @@
 
 body {
     color: hsl(0, 0%, 100%);
+    font-family: 'Poppins', sans-serif;
     background: hsl(34, 40%, 92%);
+    padding-top: 80px;
     margin: 0;
 }
 
@@ -18,9 +20,9 @@ body {
     padding: 10px 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.264);
     backdrop-filter: blur(6px);
 }
 
@@ -69,14 +71,14 @@ body {
 }
 
 .inquire-btn:hover {
-    background-color: #111827;
+    background-color: hsl(221, 39%, 11%);
 }
 
 .menu-button {
     display: none;
     background: none;
     border: none;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     font-size: 22px;
 }
 
