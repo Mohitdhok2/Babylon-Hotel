@@ -43,7 +43,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 35px
+    gap: 22px
 }
 
 .nav-link {
@@ -309,9 +309,6 @@ body {
 }
 
 @media (max-width:992px) {
-    .nav-list {
-        display: none
-    }
 
     .menu-button {
         display: block
@@ -335,6 +332,10 @@ body {
     .map-wrapper iframe {
         height: 360px
     }
+    .nav-list {
+        display: none;
+    }
+    
 }
 
 @media (max-width:600px) {
@@ -357,7 +358,7 @@ body {
     }
 
     .hotel-name {
-        font-size: 18px
+        font-size: 15px
     }
 
     .location-section {

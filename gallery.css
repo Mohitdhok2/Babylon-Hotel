@@ -44,7 +44,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 35px;
+    gap: 22px;
 }
 
 .nav-link {
@@ -81,9 +81,7 @@ body {
 }
 
 @media (max-width: 900px) {
-    .navbar {
-        display: none;
-    }
+    
 
     .menu-button {
         display: block;
@@ -127,6 +125,9 @@ body {
 @media (max-width: 768px) {
     .gallery-title {
         font-size: 38px;
+    }
+    .nav-list {
+        display: none;
     }
 
     .gallery-description {
@@ -310,6 +311,7 @@ body {
     .header {
         padding: 10px 14px;
     }
+    
 
     .hotel-name {
         font-size: 18px;

@@ -32,7 +32,7 @@ body {
 }
 
 .hotel-name {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -44,7 +44,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 22px;
 }
 
 .nav-link {
@@ -757,14 +757,14 @@ body {
 /* ≤ 576px */
 @media only screen and (max-width: 576px) {
     .hotel-name {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .hotel-location {
         font-size: 12px;
     }
     .nav-list {
-        /* display: none; */
+        display: none;
         
     }
 

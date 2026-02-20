@@ -45,7 +45,7 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 35px;
+    gap: 22px;
 }
 
 .nav-link {
@@ -323,10 +323,7 @@ body {
     .header {
         padding: 12px 20px;
     }
-
-    .navbar {
-        display: none;
-    }
+    
 
     .menu-button {
         display: block;
@@ -372,44 +369,17 @@ body {
     }
 }
 
-@media (max-width: 900px) {
-    .navbar {
-        display: none;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    .header {
-        padding: 16px 30px;
-    }
-
-    .room-card,
-    .room-card:nth-child(even) {
-        flex-direction: column;
-    }
-
-    .room-content {
-        padding: 30px;
-    }
-
-    .amenities-list {
-        grid-template-columns: 1fr;
-    }
-
-    .section-title {
-        font-size: 36px;
-    }
-}
 
 @media (max-width: 576px) {
     .header {
         padding: 8px 14px;
     }
+    .nav-list {
+        display: none;
+    }
 
     .hotel-name {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.1;
     }
 
